@@ -9,7 +9,7 @@ jim dot someone dot smithington at chicken dot net
 And you can take that to the bank.
 """
 
-regex = /(.*?).\b(at)\b.(.*?).\b(dot)\b.(.*?)$/i
+regex = /(.*?).\b(at|dot)\b.(.*?)$/i
 
 arr = post.scan(regex).map { |entry| entry.join(" ") }
 
