@@ -1,4 +1,4 @@
-# parse-email
+# Parse Email
 Take human readable email addresses and make them into usable email addresses
 
 ### Example
